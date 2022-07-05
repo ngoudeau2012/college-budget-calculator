@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Requirements 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Three Sections
 
-## Available Scripts
+### Section 1
+- Child Creation Section
+    - Child intake form
+        - Child's name
+        - Child's current age
+        - Expected age to start college
+        - Years expected to attend college
+        - Current annual college tuition
+            - ability to manually input the tuition cost
+            - ability to look up the college by university name
+                - ability to select instate vs out of state
+                - ability to select tuition and fee's only or include room and board
+        - planned contribution
+            - monthly or yearly
+        - current savings balance
+        - expected average rate of return (%)
+        - % plan you plan to cover (slider)
+        - Rate of annual cost increase
 
-In the project directory, you can run:
+### Section 2
+- Results for child
+    - Bar Graph of results
+        - X axis
+            - years the child is in college (calculated from age starting college minus child's current age)
+        - Y axis
+            - cost amount
+        - Bar split
+            - Amount not funded by you
+            - shortfall
+            - amount funded by you
+    - Cost of college section
+        - Estimated total cost
+        - Amount you plan to cover
 
-### `npm start`
+    - Amount needed to meet your savings goal
+        - Based on your current savings, you'll cover x amount
+        - to reach the full amount you plan to cover, save an additional x amount
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Section 3
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Create a PDF based on the information
 
-### `npm test`
+### Other Information
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Everything is based on [Vanguard's College savings planner](https://vanguard.wealthmsi.com/csp.php#).
